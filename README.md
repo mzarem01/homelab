@@ -28,7 +28,7 @@ what happens when it breaks.
 
 | | |
 |---|---|
-| **Host** | Quad-core AMD, ~7.5 GB RAM, Debian, headless, managed over SSH |
+| **Host** | Dell OptiPlex 5050 SFF (i7-7700, 32 GB RAM), Debian, headless, managed over SSH. Moved off the original 2009 PC in September 2026. |
 | **Containers** | ~13, managed through CasaOS |
 | **Media** | Jellyfin for video, plus the automation stack that manages the library |
 | **Music** | Self-hosted music server, ~106 GB and around 18,000 tracks. Built to get off streaming subscriptions. |
@@ -81,11 +81,11 @@ the SIEM build with a validated SSH brute-force detection.
 ## What I got wrong
 
 **Start with better hardware.** This is the big one. A 2009 office PC was free
-and I learned a lot fighting it, but the board has no USB 3.0 at all, so every
-external drive is capped at USB 2.0 speeds. The CPU can't transcode video. You
+and I learned a lot fighting it, but the board had no USB 3.0 at all, so every
+external drive was capped at USB 2.0 speeds. The CPU couldn't transcode video. You
 can find a much faster used machine for very little money, and you will not spend
 your evenings working around a sixteen-year-old motherboard. If I were starting
-again I'd buy a cheap used small-form-factor PC and skip the headache.
+again I'd buy a cheap used small-form-factor PC and skip the headache. In September 2026 I finally did exactly that.
 
 **I built monitoring and backups after the first time something failed quietly,
 not before.** Both should have gone in on day one. Every problem I've had was
