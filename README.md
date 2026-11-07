@@ -37,9 +37,9 @@ what happens when it breaks.
 | **Monitoring** | Uptime checks with chat alerting, plus resource telemetry |
 | **Security** | A single-node Wazuh SIEM on a separate VM, with agents on Linux, macOS and Windows |
 
-My girlfriend uses it. My dad watches things on it on the TV in the living room.
-That part matters more than it sounds, because it means downtime is a real
-problem and not just an inconvenience for me.
+Other people in my household use it every day. That matters more than it
+sounds, because it means downtime is a real problem and not just an
+inconvenience for me.
 
 ## Storage
 
